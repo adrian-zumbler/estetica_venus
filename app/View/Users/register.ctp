@@ -1,6 +1,14 @@
-
+<div class="bg-content" >
+<div class="content">
+<div class="container">
 <?php
-	echo $this->Form->create('User');
+	echo $this->Form->create('User');?>
+
+	<fieldset>
+        <legend style="color:white;">
+            <?php echo __('Rellena el formulario'); ?>
+        </legend>
+    <?php    
 	echo $this->Form->input('User.username',array(
 		'class' => 'form-control',
 		'div' => array(
@@ -55,5 +63,11 @@
 	);
 	
 	echo $this->Session->flash();
-	echo $this->Form->end('Registrar');
-?>
+	
+	
+?></fieldset>
+<?php echo $this->Form->end(array('label' => 'Registrar',
+'class' => 'btn btn-1'));?>
+</div>
+</div>
+</div>

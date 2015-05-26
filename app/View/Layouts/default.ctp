@@ -14,7 +14,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', 'Estetica Venus');
 $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
 <!DOCTYPE html>
@@ -68,7 +68,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
             <div class="nav-collapse nav-collapse_  collapse">
                 <ul class="nav sf-menu">
 		                <li class="active">
-		                	<a href="index.html"> Inicio</a>
+		                	<a href="/estetica/"> Inicio</a>
 		                </li>
 		                <?php if(!AuthComponent::user('id')){
 		                	echo '<li>
@@ -83,10 +83,10 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		                } else {
 		                	echo '<li>
-				                	<a href="empleados.html">Citas</a>
+				                	<a href="/estetica/appointments/add/">Citas</a>
 				                </li>';
 				            echo '<li>
-				                	<a href="#">Salir</a>
+				                	<a href="/estetica/users/logout/">Salir</a>
 				                </li>';    
 		                	echo AuthComponent::user('name') . ' ' . AuthComponent::user('last_name') ;
 		                }

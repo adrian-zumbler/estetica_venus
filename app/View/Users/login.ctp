@@ -1,13 +1,18 @@
-<div >
-<?php echo $this->Session->flash('auth'); ?>
-<?php echo $this->Form->create('User'); ?>
+<div class="bg-content" >
+<div class="content">
+<div class="container">
+	<?php echo $this->Form->create('User'); ?>
     <fieldset>
-        <legend>
-            <?php echo __('Please enter your username and password'); ?>
+        <legend style="color:white;">
+            <?php echo __('Ingresa con tu nombre de usuario y contraseña'); ?>
         </legend>
         <?php echo $this->Form->input('username');
         echo $this->Form->input('password');
     ?>
     </fieldset>
-<?php echo $this->Form->end(__('Login')); ?>
+<?php echo $this->Form->end(array('label' => 'Iniciar',
+'class' => 'btn btn-1')); ?>
+<?php echo $this->Session->flash('auth'); ?>
+</div>
+</div>
 </div>

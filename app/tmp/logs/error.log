@@ -1,0 +1,2239 @@
+2015-05-21 02:53:40 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /estetica/users
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-21 02:54:03 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/user
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 02:55:05 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-21 03:09:31 Error: [MissingViewException] View file "Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\index.ctp',
+)
+Request URL: /estetica/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\View\View.php(470): View->_getViewFileName('index')
+#1 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(960): View->render('index', NULL)
+#2 C:\xampp\htdocs\estetica\app\Controller\PagesController.php(68): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-05-21 03:09:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:09:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:09:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/kwicks-slider.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:09:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:09:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:09:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/touchTouch.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:10:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/touchTouch.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/kwicks-slider.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/bootstrap.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/responsive.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/style.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/kwicks-slider.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/css/touchTouch.css
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:14:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/bg-content.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-2.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-1.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-3.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:17:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-4.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-1.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-4.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/bg-content.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-3.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-2.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-4.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-1.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-2.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-3.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:18:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/bg-content.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-1.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-2.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-4.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-3.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/bg-content.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-4.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-1.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-3.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/slide-5.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 03:19:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/soc-icon-2.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:09:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/superfish.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/touchTouch.jquery.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.flexslider-min.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.easing.1.3.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/jquery.kwicks-1.5.1.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:10:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/js/bootstrap.js
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:14:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:26:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:26:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/next.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:26:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/prev.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:36:53 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /estetica/users/img/logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-21 05:38:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/Logo.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-21 05:59:11 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\xampp\htdocs\estetica\app\Controller\UsersController.php, line 11]
+2015-05-21 05:59:11 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-21 06:02:37 Error: [PDOException] SQLSTATE[23503]: Foreign key violation: 7 ERROR:  inserción o actualización en la tabla «users» viola la llave foránea «forkey_id»
+DETAIL:  La llave (role_id)=(2) no está presente en la tabla «roles».
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\estetica\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 C:\xampp\htdocs\estetica\lib\Cake\Model\Model.php(1928): DboSource->create(Object(AppModel), Array, Array)
+#4 C:\xampp\htdocs\estetica\lib\Cake\Model\Model.php(1751): Model->_doSave(NULL, Array)
+#5 C:\xampp\htdocs\estetica\app\Controller\UsersController.php(12): Model->save()
+#6 [internal function]: UsersController->add()
+#7 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-05-24 01:32:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-24 01:34:00 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\estetica\app\View\Users\add.ctp, line 34]
+2015-05-24 01:34:00 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 01:44:40 Error: Fatal Error (4): syntax error, unexpected '(', expecting ',' or ';' in [C:\xampp\htdocs\estetica\app\Controller\AppController.php, line 34]
+2015-05-24 01:44:40 Error: [FatalErrorException] syntax error, unexpected '(', expecting ',' or ';'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 01:44:47 Error: Fatal Error (4): syntax error, unexpected '(', expecting ',' or ';' in [C:\xampp\htdocs\estetica\app\Controller\AppController.php, line 34]
+2015-05-24 01:44:47 Error: [FatalErrorException] syntax error, unexpected '(', expecting ',' or ';'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 01:46:21 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/add/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-24 01:46:58 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/add/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-24 01:47:23 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /estetica/users/users/add/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-24 02:03:50 Error: [MissingComponentException] Component class loginActionComponent could not be found.
+Exception Attributes: array (
+  'class' => 'loginActionComponent',
+  'plugin' => false,
+)
+Request URL: /estetica/users/add/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('loginAction', Array)
+#1 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 02:06:09 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-24 02:07:43 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\estetica\app\Controller\AppController.php, line 51]
+2015-05-24 02:07:43 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 02:10:25 Error: [MissingComponentException] Component class authenticateComponent could not be found.
+Exception Attributes: array (
+  'class' => 'authenticateComponent',
+  'plugin' => false,
+)
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('authenticate', Array)
+#1 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 02:11:07 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [C:\xampp\htdocs\estetica\app\Controller\AppController.php, line 40]
+2015-05-24 02:11:07 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 40, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 02:12:09 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-24 02:13:06 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-24 02:13:11 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-24 02:14:51 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\estetica\app\Controller\UsersController.php, line 26]
+2015-05-24 02:14:51 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 26, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 02:15:20 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\estetica\app\Controller\UsersController.php, line 27]
+2015-05-24 02:15:20 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 27, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 02:34:09 Error: Fatal Error (4): syntax error, unexpected ''Auth'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\estetica\app\Controller\AppController.php, line 36]
+2015-05-24 02:34:09 Error: [FatalErrorException] syntax error, unexpected ''Auth'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 02:34:21 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-24 02:47:41 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\estetica\app\Controller\UsersController.php, line 17]
+2015-05-24 02:47:41 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 02:49:52 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\estetica\app\Controller\UsersController.php, line 17]
+2015-05-24 02:49:52 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 02:52:24 Error: Fatal Error (4): syntax error, unexpected 'functino' (T_STRING), expecting variable (T_VARIABLE) in [C:\xampp\htdocs\estetica\app\Controller\UsersController.php, line 6]
+2015-05-24 02:52:24 Error: [FatalErrorException] syntax error, unexpected 'functino' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 03:54:27 Error: [MissingControllerException] Controller class CheckoutsController could not be found.
+Exception Attributes: array (
+  'class' => 'CheckoutsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/checkouts
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 01:07:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/prev.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 01:07:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/next.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+ain}
+2015-05-26 01:13:55 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\estetica\app\View\Users\register.ctp, line 54]
+2015-05-26 01:13:55 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /estetica/users/register/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 54, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 01:21:09 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /estetica/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-26 01:24:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/next.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 01:24:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/prev.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 01:24:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 01:25:48 Error: Fatal Error (1): Class 'AuthComComponent' not found in [C:\xampp\htdocs\estetica\app\View\Layouts\default.ctp, line 69]
+2015-05-26 01:25:48 Error: [FatalErrorException] Class 'AuthComComponent' not found
+Request URL: /estetica/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComC...', 'C:\\xampp\\htdocs...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComC...', 'C:\\xampp\\htdocs...', 69, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComC...', 'C:\\xampp\\htdocs...', 69, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 01:42:55 Error: [MissingControllerException] Controller class AppointmentsController could not be found.
+Exception Attributes: array (
+  'class' => 'AppointmentsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/appointments
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 01:43:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 01:59:22 Error: Fatal Error (1): Call to undefined function _getAllFeatures() in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 10]
+2015-05-26 01:59:22 Error: [FatalErrorException] Call to undefined function _getAllFeatures()
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 01:59:41 Error: Fatal Error (1): Call to undefined function _getAllFeatures() in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 10]
+2015-05-26 01:59:41 Error: [FatalErrorException] Call to undefined function _getAllFeatures()
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:00:04 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 10]
+2015-05-26 02:00:04 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:00:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 14]
+2015-05-26 02:00:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:00:49 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERROR:  no existe la columna Appointment.name
+LINE 1: SELECT "Appointment"."id" AS "Appointment__id", "Appointment...
+                                                        ^
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\estetica\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT "Appoint...', Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT "Appoint...', Array, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT "Appoint...', false)
+#4 C:\xampp\htdocs\estetica\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Appointment), Array)
+#5 C:\xampp\htdocs\estetica\lib\Cake\Model\Model.php(2994): Model->_readDataSource('list', Array)
+#6 C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php(17): Model->find('list', Array)
+#7 C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php(10): AppointmentsController->_getAllFeatures(Object(AppointmentsController))
+#8 [internal function]: AppointmentsController->add()
+#9 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(AppointmentsController), Array)
+#10 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-05-26 02:01:56 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 15]
+2015-05-26 02:01:56 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:02:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 14]
+2015-05-26 02:02:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:03:44 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 14]
+2015-05-26 02:03:44 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:03:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 02:11:04 Error: Fatal Error (1): Call to undefined function input() in [C:\xampp\htdocs\estetica\app\View\Appointments\add.ctp, line 3]
+2015-05-26 02:11:04 Error: [FatalErrorException] Call to undefined function input()
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:12:59 Error: Fatal Error (4): syntax error, unexpected ''options'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\estetica\app\View\Appointments\add.ctp, line 5]
+2015-05-26 02:12:59 Error: [FatalErrorException] syntax error, unexpected ''options'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:13:07 Error: Fatal Error (4): syntax error, unexpected ''options'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\estetica\app\View\Appointments\add.ctp, line 5]
+2015-05-26 02:13:07 Error: [FatalErrorException] syntax error, unexpected ''options'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:27:01 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\estetica\app\View\Appointments\add.ctp, line 11]
+2015-05-26 02:27:01 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:33:46 Error: [MissingActionException] Action AppointmentsController::index.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppointmentsController',
+  'action' => 'index.html',
+)
+Request URL: /estetica/appointments/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-26 02:43:16 Error: [MissingControllerException] Controller class Empleados.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Empleados.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/empleados.html
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 02:43:44 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\estetica\app\View\Appointments\add.ctp, line 12]
+2015-05-26 02:43:44 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:44:27 Error: Fatal Error (4): syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\estetica\app\View\Appointments\add.ctp, line 16]
+2015-05-26 02:44:27 Error: [FatalErrorException] syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 02:59:56 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\estetica\app\View\Layouts\default.ctp, line 131]
+2015-05-26 02:59:56 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /estetica/appointments/add
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 131)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 131, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 131, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 05:08:18 Error: [MissingActionException] Action AppointmentsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppointmentsController',
+  'action' => 'view',
+)
+Request URL: /estetica/appointments/view
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-26 05:08:25 Error: Fatal Error (4): syntax error, unexpected '}', expecting variable (T_VARIABLE) in [C:\xampp\htdocs\estetica\app\Controller\AppointmentsController.php, line 41]
+2015-05-26 05:08:25 Error: [FatalErrorException] syntax error, unexpected '}', expecting variable (T_VARIABLE)
+Request URL: /estetica/appointments/view
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 05:19:05 Error: Fatal Error (4): syntax error, unexpected '$appointment' (T_VARIABLE), expecting ',' or ';' in [C:\xampp\htdocs\estetica\app\View\Appointments\view.ctp, line 22]
+2015-05-26 05:19:05 Error: [FatalErrorException] syntax error, unexpected '$appointment' (T_VARIABLE), expecting ',' or ';'
+Request URL: /estetica/appointments/view
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 22, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 05:20:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 05:23:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 05:32:01 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [C:\xampp\htdocs\estetica\app\View\Users\login.ctp, line 14]
+2015-05-26 05:32:01 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /estetica/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 05:33:09 Error: [MissingControllerException] Controller class AppoinmentsController could not be found.
+Exception Attributes: array (
+  'class' => 'AppoinmentsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/appoinments/add/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 05:33:21 Error: [MissingControllerException] Controller class AppoinmentsController could not be found.
+Exception Attributes: array (
+  'class' => 'AppoinmentsController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/appoinments/add/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 05:33:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-26 05:34:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

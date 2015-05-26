@@ -18,6 +18,10 @@ class AppointmentsController extends AppController {
 		}
 	}
 
+	function view() {
+		$this->set('appointments',$this->_getAllAppointment($this));
+	}
+
 	function _getAllFeatures($context) {
 		$features = $context->Appointment->Feature->find('list',array(
 			'fields' => array('id','name')
@@ -32,4 +36,9 @@ class AppointmentsController extends AppController {
 		);
 		return $schedules;
 	}
+
+	public function _getAllAppointment($context) {
+		return $context->Appointment->find('all');
+	}
+	
 }
