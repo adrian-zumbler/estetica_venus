@@ -4,7 +4,7 @@ class UsersController extends AppController {
 	public $helpers = array('Form','Html');
 
 	public function beforeFilter() {
-		$this->Auth->allow('add');
+		$this->Auth->allow('register');
 	}
 
 	public function index() {
