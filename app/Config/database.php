@@ -68,7 +68,7 @@
  */
 class DATABASE_CONFIG {
 
-	/*public function __construct() {
+	public function __construct() {
 		$DATABASE_URL = parse_url($_ENV['DATABASE_URL']);
 	    $this->default = array(
 	      'datasource' => 'Database/Postgres',
@@ -80,9 +80,9 @@ class DATABASE_CONFIG {
 	      'prefix'     => '',
 	      'encoding'   => 'utf8',
     	);
-	}*/
+	}
 
-	public $default = array(
+	/*public $default = array(
 		'datasource' => 'Database/Postgres',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -91,7 +91,7 @@ class DATABASE_CONFIG {
 		'database' => 'estetica_venus',
 		'prefix' => '',
 		//'encoding' => 'utf8',
-	);
+	);*/
 
 	public $test = array(
 		'datasource' => 'Database/Mysql',
