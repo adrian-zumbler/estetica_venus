@@ -8,6 +8,7 @@
 	<tr>
 		<td>#</td>
 		<td>Fecha</td>
+		<td>Servicio</td>
 		<td>Horario</td>
 		<td>Usuario</td>
 	</tr>
@@ -22,7 +23,7 @@
 			echo '<td>'.
 				$appointment['Schedule']['schedule_name'].'</td>';
 			echo '<td>'.
-				$appointment['User']['name']. " " .$appointment['User']['last_name'].'</td></tr>';		
+				$appointment['User']['first_name']. " " .$appointment['User']['last_name'].'</td></tr>';		
 		}
 
 	?>
