@@ -68,7 +68,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
             <div class="nav-collapse nav-collapse_  collapse">
                 <ul class="nav sf-menu">
 		                <li class="active">
-		                	<a href="/estetica/"> Inicio</a>
+		                	<a href="http://estetica-venus.herokuapp.com/"> Inicio</a>
 		                </li>
 		                <?php if(!AuthComponent::user('id')){
 
@@ -78,21 +78,19 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				                <li>
 				                	<a href="/users/register/">Registrate</a>
 				                </li>
-				                <li>
-				                	<a href="empleados.html">Empleados</a>
-				                </li>';
+				                ';
 
 		                } else {
 		                	if (AuthComponent::user('role_id') == 1) {
 		                		echo '<li>
-				                	<a href="/estetica/users/view/">Usuarios</a>
+				                	<a href="/users/view/">Usuarios</a>
 				                </li>';
 				                echo '<li>
-				                	<a href="/estetica/appointments/view/"> Ver Citas</a>
+				                	<a href="/appointments/view/"> Ver Citas</a>
 				                </li>';
 		                	} else {
 		                		echo '<li>
-				                	<a href="/estetica/appointments/add/">Citas</a>
+				                	<a href="/appointments/add/">Citas</a>
 				                </li>';
 		                	}
 		                	
@@ -101,7 +99,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				                </li>'; 
 
 				            echo '<li>
-				                	<a href="/estetica/users/logout/">Salir</a>
+				                	<a href="/users/logout/">Salir</a>
 				                </li>'; 
 
 		                	
