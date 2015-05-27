@@ -76,7 +76,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		                			<a href="users/login/">Entrar</a>
 				                </li>
 				                <li>
-				                	<a href="users/register/">Registrate</a>
+				                	<a href="/users/register/">Registrate</a>
 				                </li>
 				                <li>
 				                	<a href="empleados.html">Empleados</a>
@@ -97,7 +97,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		                	}
 		                	
 		                	echo '<li>
-				                	<a href="#">'.AuthComponent::user('name').'</a>
+				                	<a href="#">'.AuthComponent::user('first_name').'</a>
 				                </li>'; 
 
 				            echo '<li>
