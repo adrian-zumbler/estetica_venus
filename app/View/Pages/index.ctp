@@ -59,7 +59,7 @@
             <li class="span3">
                   <div class="thumbnail thumbnail-1">
                 <h3>Fashion</h3>
-                <img  src="img/color/cuatro.jpg" alt="">
+                <img  src="img/maquillaje/100.jpg" alt="">
                 <section> <strong>¿No sabes de qué color tintar tu cabello? </strong>
                       <p> No te pierdas los tonos más de moda para este 2015. Nosotros tenemos la solucion para ti.</p>
                       <a href="features/tintes/" class="btn btn-1">Leer mas</a> </section>
