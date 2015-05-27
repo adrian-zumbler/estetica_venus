@@ -121,17 +121,19 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 			<?php echo $this->fetch('content'); ?>
 		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-				);
-			?>
-			<p>
-				<?php echo $cakeVersion; ?>
-			</p>
-		</div>
+		<footer>
+      <div class="container clearfix">
+    <ul class="list-social pull-right">
+          <li><a class="icon-1" href="https://www.facebook.com/phhhhm"></a></li>
+          <li><a class="icon-2" href="http://peasheemee.blogspot.mx/"></a></li>
+          <li><a class="icon-3" href="https://twitter.com/peasheeme"></a></li>
+          <li><a class="icon-4" href="https://plus.google.com/u/0/"></a></li>
+        </ul>
+
+        <div class="block-slogan"> Derechos reservados Estetica Venus</div>
+    
+  </div>
+    </footer>
 	</div>
 	
 	<?php echo $this->Html->script(array(
