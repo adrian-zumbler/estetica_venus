@@ -71,6 +71,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		                	<a href="/estetica/"> Inicio</a>
 		                </li>
 		                <?php if(!AuthComponent::user('id')){
+
 		                	echo '<li>
 		                			<a href="users/login/">Entrar</a>
 				                </li>
@@ -82,13 +83,28 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				                </li>';
 
 		                } else {
-		                	echo '<li>
+		                	if (AuthComponent::user('role_id') == 1) {
+		                		echo '<li>
+				                	<a href="/estetica/users/view/">Usuarios</a>
+				                </li>';
+				                echo '<li>
+				                	<a href="/estetica/appointments/view/"> Ver Citas</a>
+				                </li>';
+		                	} else {
+		                		echo '<li>
 				                	<a href="/estetica/appointments/add/">Citas</a>
 				                </li>';
+		                	}
+		                	
+		                	echo '<li>
+				                	<a href="#">'.AuthComponent::user('name').'</a>
+				                </li>'; 
+
 				            echo '<li>
 				                	<a href="/estetica/users/logout/">Salir</a>
-				                </li>';    
-		                	echo AuthComponent::user('name') . ' ' . AuthComponent::user('last_name') ;
+				                </li>'; 
+
+		                	
 		                }
 
 		                ?>
@@ -101,6 +117,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
   				</div>
   			</div>
 		 </header>
+
 
 			<?php echo $this->Session->flash(); ?>
 

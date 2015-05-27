@@ -4,6 +4,12 @@ App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
 
 class User extends AppModel {
 	public $name = 'User';
+	public $belongsTo = array(
+		'Role' => array(
+			'className' => 'Role',
+			'foreignKey' => 'role_id'
+			)
+		);
 
 
 	public function beforeSave($options = array()) {

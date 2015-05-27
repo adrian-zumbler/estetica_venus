@@ -2237,3 +2237,439 @@ Request URL: /estetica/img/indicator.png
 Stack Trace:
 #0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-05-27 02:49:10 Error: [MissingViewException] View file "Festues\tintes.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Festues\\tintes.ctp',
+)
+Request URL: /estetica/features/tintes/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\estetica\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:50:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 02:52:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 02:56:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 02:58:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/4jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 02:58:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 02:59:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 02:59:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:01:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:02:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:06:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:06:51 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/2-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:06:52 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/10-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:06:52 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/3-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:06:52 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/20-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:06:52 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/GEL-20-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:06:52 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/6-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:06:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:07:45 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/6-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:07:45 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/20-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:07:45 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/GEL-20-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:07:45 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/10-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:07:45 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/3-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:07:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:08:16 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/10-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:08:16 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/6-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:08:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:08:16 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/20-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:08:16 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/GEL-20-CH.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:10:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:11:41 Error: [MissingActionException] Action FeaturesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'img',
+)
+Request URL: /estetica/features/img/u%C3%B1as/6-G.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:22:34 Error: [MissingActionException] Action FeaturesController::unas.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'unas.jpg',
+)
+Request URL: /estetica/features/unas.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:23:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:33:17 Error: [MissingActionException] Action FeaturesController::maquillaje() could not be found.
+Exception Attributes: array (
+  'controller' => 'FeaturesController',
+  'action' => 'maquillaje',
+)
+Request URL: /estetica/features/maquillaje/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estetica\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-05-27 03:33:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:36:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 03:42:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 04:08:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 04:09:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 04:09:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 04:09:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 04:09:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/indicator.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-27 04:23:56 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\estetica\app\View\Layouts\default.ctp, line 100]
+2015-05-27 04:23:56 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /estetica/appointments/view/
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 100)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 100, Array)
+#2 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 100, Array)
+#3 C:\xampp\htdocs\estetica\lib\Cake\Core\App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-27 04:27:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estetica/img/magnifier.png
+Stack Trace:
+#0 C:\xampp\htdocs\estetica\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

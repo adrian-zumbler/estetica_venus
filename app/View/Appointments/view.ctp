@@ -3,7 +3,7 @@
 
 
 ?>
-<h1 style="color: black;">Citas Registradas</h1>
+<h3 style="color: black;">Citas Registradas</h3>
 <table class="table table-striped">
 	<tr>
 		<td>#</td>

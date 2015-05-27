@@ -51,6 +51,56 @@
   </div>
     </div>
 
+  <div id="content" class="content-extra"><div class="ic">Tendencias 2015 </div>
+    <div class="row-1">
+          <div class="container">
+        <div class="row">
+              <ul class="thumbnails thumbnails-1">
+            <li class="span3">
+                  <div class="thumbnail thumbnail-1">
+                <h3>Fashion</h3>
+                <img  src="img/color/cinco.jpg" alt="">
+                <section> <strong>¿No sabes de qué color tintar tu cabello? </strong>
+                      <p> No te pierdas los tonos más de moda para este 2015. Nosotros tenemos la solucion para ti.</p>
+                      <a href="features/tintes/" class="btn btn-1">Leer mas</a> </section>
+              </div>
+                </li>
+            <li class="span3">
+                  <div class="thumbnail thumbnail-1">
+                <h3>Maquillaje</h3>
+                <img  src="img/maquillaje/1.jpg" alt="">
+                <section> <strong>Maquillaje perfecto de noche:</strong>
+                      <p>Tenemos el mejor maquillaje para ese dia especial </p>
+                      <a href="features/maquillaje/" class="btn btn-1">Leer mas</a> </section>
+              </div>
+                </li>
+            <li class="span3">
+                  <div class="thumbnail thumbnail-1">
+                <h3>Uñas</h3>
+                <img  src="img/uñas/1.jpg" alt="">
+                <section> <strong>Decoracion de uñas: </strong>
+                      <p>La decoración de uñas tiene muchas y muy variadas formas y colores. Hoy nos vamos a dedicar a 3 diseños para principiantes muy fáciles, aunque en nuestra galería de fotos podrás encontrar un montón de uñas decoradas para que puedas copiar de cara al buen tiempo.</p>
+                      <a href="features/unas/" class="btn btn-1">Leer mas</a> </section>
+              </div>
+                </li>
+            <li class="span3">
+                  <div class="thumbnail thumbnail-1">
+                <h3 class="title-1 extra">Cortes</h3>
+                <img  src="img/hombres/4.jpg" alt="">
+                <section> <strong>Eres hombre y te gusta la moda..</strong>
+                      <p>No te preocupes tenemos los mejores cortes de cabello 2015 para caballero!!</p>
+                      <a href="cortes.html" class="btn btn-1">Leer mas</a> </section>
+              </div>
+                </li>
+          </ul>
+            </div>
+      </div>
+        </div>
+      </div>
+        </div>
+  </div>
+    </div>  
+
 <!--============================== footer =================================-->
 <footer>
       <div class="container clearfix">

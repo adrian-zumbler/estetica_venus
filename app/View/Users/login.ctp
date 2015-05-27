@@ -12,7 +12,7 @@
     </fieldset>
 <?php echo $this->Form->end(array('label' => 'Iniciar',
 'class' => 'btn btn-1')); ?>
-<?php echo $this->Session->flash('auth'); ?>
 </div>
+<?php echo $this->Session->flash('auth'); ?>
 </div>
 </div>

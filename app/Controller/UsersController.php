@@ -40,5 +40,11 @@ class UsersController extends AppController {
 			}
 		}
 	}
+
+	public function view() {
+		$this->set('users',$this->User->find('all'));
+	}
+
+
 }
 
