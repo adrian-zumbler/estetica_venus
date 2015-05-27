@@ -14,13 +14,13 @@
 			echo '<tr><td>'.
 				$user['User']['id'].'</td>';
 			echo '<td>'.
-				$user['User']['name'].'</td>';
+				$user['User']['first_name'].'</td>';
 			echo '<td>'.
 				$user['User']['last_name'].'</td>';
 			echo '<td>'.
 				$user['User']['username'].'</td>';
 			echo '<td>'.
-				$user['User']['email'].'</td>';
+				$user['User']['correo'].'</td>';
 			echo '<td>'.
 				$user['User']['password'].'</td>';				
 			echo '<td>'.

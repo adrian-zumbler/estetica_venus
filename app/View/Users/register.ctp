@@ -16,7 +16,7 @@
 			)
 		)
 	);
-	echo $this->Form->input('User.name',array(
+	echo $this->Form->input('User.first_name',array(
 		'class' => 'form-control',
 		'div' => array(
 			'class' => 'form-group'
@@ -45,7 +45,7 @@
 			)
 		)
 	);*/
-	echo $this->Form->input('User.email',array(
+	echo $this->Form->input('User.correo',array(
 		'class' => 'form-control',
 		'div' => array(
 			'class' => 'form-group'
