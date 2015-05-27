@@ -18,6 +18,8 @@
 			echo '<td>'.
 				$appointment['Appointment']['date'].'</td>';
 			echo '<td>'.
+				$appointment['Feature']['feature_name'].'</td>';	
+			echo '<td>'.
 				$appointment['Schedule']['schedule_name'].'</td>';
 			echo '<td>'.
 				$appointment['User']['name']. " " .$appointment['User']['last_name'].'</td></tr>';		
