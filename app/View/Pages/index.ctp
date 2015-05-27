@@ -102,19 +102,7 @@
     </div>  
 
 <!--============================== footer =================================-->
-<footer>
-      <div class="container clearfix">
-    <ul class="list-social pull-right">
-          <li><a class="icon-1" href="https://www.facebook.com/phhhhm"></a></li>
-          <li><a class="icon-2" href="http://peasheemee.blogspot.mx/"></a></li>
-          <li><a class="icon-3" href="https://twitter.com/peasheeme"></a></li>
-          <li><a class="icon-4" href="https://plus.google.com/u/0/"></a></li>
-        </ul>
 
-        <div class="block-slogan"> Derechos reservados Estetica Venus</div>
-    
-  </div>
-    </footer>
 
 </body>
 </html>
