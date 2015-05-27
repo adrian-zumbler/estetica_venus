@@ -19,6 +19,9 @@ class AppointmentsController extends AppController {
 	}
 
 	function view() {
+		if($this->Auth->user('role_id') != 1) {
+			$this->redirect(array('controller' => 'pages','action' => 'index'));
+		}
 		$this->set('appointments',$this->_getAllAppointment($this));
 	}
 

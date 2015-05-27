@@ -42,6 +42,10 @@ class UsersController extends AppController {
 	}
 
 	public function view() {
+		if($this->Auth->user('role_id') != 1) {
+			$this->redirect(array('controller' => 'pages','action' => 'index'));
+		}
+
 		$this->set('users',$this->User->find('all'));
 	}
 
