@@ -24,7 +24,7 @@ class AppointmentsController extends AppController {
 
 	function _getAllFeatures($context) {
 		$features = $context->Appointment->Feature->find('list',array(
-			'fields' => array('id','name')
+			'fields' => array('id','feature_name')
 			)
 		);
 		return $features;

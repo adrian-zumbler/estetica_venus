@@ -73,7 +73,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		                <?php if(!AuthComponent::user('id')){
 
 		                	echo '<li>
-		                			<a href="users/login/">Entrar</a>
+		                			<a href="/users/login/">Entrar</a>
 				                </li>
 				                <li>
 				                	<a href="/users/register/">Registrate</a>
